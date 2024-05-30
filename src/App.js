@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import MainHeader from './components/MainHeader';
+import { useEffect, useState } from 'react';
+
 
 function App() {
+
+  const [data,setData]=useState([])
+
+  useEffect(()=>{
+    fetch("https://services6.arcgis.com/qOD6P9mFnaiJRBZ0/ArcGIS/rest/services/HEA_Diabetes/FeatureServer/0/query?where=1=1&outFields=*&returnGeometry=false&f=json")
+    .then((response)=>{
+      response.json().then((res)=>{
+        setData(res)
+        console.log(res)
+      })
+    })
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   
+      <MainHeader />
+      <h1 className="text-3xl font-bold underline" >
+     Hello Worldaa
+</h1>
+
+   </>
   );
 }
 
