@@ -9,12 +9,9 @@ function App() {
 
   return (
     
-   <>
-   
-      <MainHeader />
- 
-
-   </>
+   <>   
+     <MainHeader />
+       </>
   
   );
 }
