@@ -19,7 +19,7 @@ function MainHeader() {
             {/* Menu */}
             <div className='col-span-10 flex justify-end  '>
               <ul flex justify-center>
-                <li><a href=''>Home</a></li>
+                <li><a href=''>Homes</a></li>
                 <li><a href=''>About</a></li>
                 <li><a href=''>Blog</a></li>
                 <li><a href=''>Contact</a></li>
