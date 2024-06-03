@@ -14,3 +14,312 @@ body {
 }
 
 
+
+@media (min-width: 1536px) {
+  .orderNow .container {
+      max-width: 1250px;
+  }
+}
+@media (min-width: 768px) { 
+
+
+  ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    /* text-align: center; */
+    color: white;
+    padding-right: 25px!important;
+    /* display: flex; */
+  }
+ 
+
+ } 
+
+ @media (max-width: 768px) { 
+
+
+  ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    /* text-align: center; */
+    color: white;
+    padding-right: 25px!important;
+    /* display: flex; */
+  }
+ } 
+
+ @media (max-width: 767px) { 
+
+
+  ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    /* text-align: center; */
+    color: white;
+    padding-right: 25px!important;
+    /* display: flex; */
+  }
+  .mainHeader {
+    display: none;
+  }
+  nav ul {
+    background-color: white!important;
+    width: 100%;
+  }
+
+  .mainHeaders {
+    display: block;
+  }
+ } 
+
+ @media (min-width: 767px) { 
+
+
+ 
+  .mainHeaders {
+    display: none;
+  }
+  .bookingBox {
+    float: right;
+  }
+ } 
+/* ...................... */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bookingBox {
+    float: right;
+  }
+  .hero   {
+    height: 600px!important;
+  }
+  .hero h1 {
+    font-size: 60px!important;
+  }
+  .hero p {
+    width: 100%!important;
+  }
+
+  .foodDelCont {
+    
+    padding-left: 50px;
+  }
+  .foodDelCont h2 {
+    font-size: 50px;
+  }
+  .foodDelCont p {
+    width: 100%!important;
+  }
+
+  .deliveryBox {
+    /* width: 100%; */
+    height: 250px!important;
+    
+}
+.fooDelboxCont {
+  padding-bottom: 30px;
+}
+.foodDeliver {
+  height: 790px!important;
+   
+}
+.enjoyBox {
+  padding-bottom: 50px;
+}
+}
+
+
+ @media (min-width: 640px)and (max-width: 768px)  {   
+  
+.hero h1 {
+  font-size: 60px!important;
+}
+.mainHeaderSlide {
+  
+  height: 130vH!important;
+  
+  
+}
+
+.formBook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodDelCont {
+    
+  text-align: center;
+  padding-top: 50px;
+}
+.foodDelCont h2 {
+  font-size: 50px;
+}
+.foodDelCont p {
+  width: 100%!important;
+}
+.fooDelboxCont {
+  padding-bottom: 30px;
+}
+.deliveryBox {
+  /* width: 100%; */
+  height: 474px!important;
+  
+}
+.fooDelboxCont {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+.foodDeliver {
+  height: 1330px!important;
+ }
+ .enjoyBox {
+  padding-bottom: 50px;
+}
+
+.enjoyBox.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the items horizontally */
+}
+.enjoyBox {
+  margin: 0 auto; /* Ensures each enjoyBox is centered */
+}
+ .allnum {
+  display: flex;
+  justify-content: center;
+ }
+
+ .numberSection {
+  height: 700px;
+}
+
+.numberSection {
+  
+  height: 680px!important;
+}
+  }
+  @media (max-width: 640px) {
+    .formBook {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero h1 {
+      font-size: 50px!important;
+      padding-left: 20px;
+    }
+    .hero {
+      height: 700px!important;
+    }
+    .hero p {
+      font-size: 18px!important;
+      padding-left: 20px;
+    }
+    .menuButtons {
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+    .mainHeaderSlide {
+  
+      height: 120vH!important;
+      
+    }
+    .foodDelCont {
+    
+      text-align: center;
+      padding-top: 50px;
+    }
+    .foodDelCont h2 {
+      font-size: 42px!important;
+    }
+    .foodDelCont p {
+      
+      width: 100%!important;
+      font-size: 14px!important;
+      padding: 50px 50px !important;
+    }
+    .fooDelboxCont {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      justify-content: center;
+      padding-bottom: 20px!important;
+  }
+  .deliveryBox {
+    /* width: 100%; */
+    height: 434px!important;
+    margin: 50px;
+}
+.foodDeliver {
+  height: 1500px!important;
+ 
+}
+.fooDelboxCont p {
+
+  font-size: 12px!important;
+}
+
+.enjoyBox .grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the items horizontally */
+}
+.enjoyBox {
+  margin: 0 auto; /* Ensures each enjoyBox is centered */
+}
+
+.enjoyTopCont h2 {
+  font-size: 42px!important;
+  padding: 0!important;
+ }
+ .enjoyBox {
+  margin: 20px!important;
+}
+
+.allnum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ .numberSection h2{
+  font-size: 38px!important;
+ }
+
+ .numberSection {
+  
+  height: 760px!important;
+  
+}
+.numberSection p {
+  font-size: 14px;
+}
+  .form {
+    margin-left: 37px;
+    margin-right: 66px !important;
+    width: 80%!important;
+}
+.orderNow p {
+   
+  font-size: 14px!important;
+ }
+ .orderNow h2 {
+  font-size: 42px;
+  
+}
+
+ .galleryImages {
+  display:flex  ;
+  /* flex-wrap: wrap; */
+  justify-content: center; /* Centers the items horizontally */
+  width: 100%;
+}
+
+  }

@@ -6,120 +6,729 @@
   /* background: red; */
 }
 
- .foodHeader{
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.foodHeader {
   width: 100%;
-height: 120px;
-/* left: 178px; */
-gap: 0px;
-border-radius: 0px 0px 10px 10px;
-opacity: 0px;
-background-color: #8EC63F;
-display: flex;
-align-items: center;
-justify-content: space-between;
- }
- 
- 
+  height: 120px;
+  /* left: 178px; */
+  gap: 0px;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0px;
+  background-color: #8ec63f;
+  display: grid;
+  align-items: center;
+  /* justify-content: space-between; */
+}
 
-
- ul{
+ul {
   float: right;
   /* margin-right: 20px; */
   padding-top: 10px;
- }
+}
 
 ul li {
   display: inline;
- }
- ul li a {
-padding-right: 20px;
-font-size: 20px;
-font-weight: 700;
-line-height: 23px;
-/* text-align: center; */
-color: white;
-padding-right: 50px;
-/* display: flex; */
-/* justify-content: center;
-align-items: center; */
- }
-.login {
-   
-    color: #8EC63F;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 20px
 }
- 
- ul li a:hover {
-  
+
+ul li a {
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  /* text-align: center; */
+  color: white;
+  padding-right: 50px;
+  /* display: flex; */
+  /* justify-content: center;
+align-items: center; */
+}
+
+.login {
+  color: #8ec63f;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+ul li a:hover {
   /* color: aquamarine; */
   /* text-decoration: underline; */
-  border-bottom: 5px solid #F8FD00; /* Change the color here */
-  padding-bottom: 45px; /* Adjust the space from the bottom here */
+  border-bottom: 5px solid #f8fd00;
+  /* Change the color here */
+  padding-bottom: 45px;
+  /* Adjust the space from the bottom here */
+}
 
-   }
+.mainHeaderSlide {
+  /* background-color: #F8FD00; */
+  background-image: url("/public/images/hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  color: aliceblue;
+  /* padding-top: 150px; */
+  /* margin-bottom: -120px; */
+  /* position: relative; */
+}
 
-   .mainHeader {
-    /* background-color: #F8FD00; */
-    background-image: url('/public/images/hero.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    color: aliceblue;
-    /* padding-top: 150px; */
-    /* margin-bottom: -120px; */
-    /* position: relative; */
+.hero {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-   }
+.hero h1 span {
+  color: #8ec63f;
 
-   .hero h1 span {
-    
-font-size: 96px;
+  border-bottom: 5px solid #8ec63f;
+  /* Change the color here */
+  padding-bottom: 10px;
+  /* Adjust the space from the bottom here */
+}
+
+.hero h1 {
+  /* margin-top: 200px; */
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 110.39px;
+  /* text-align: left; */
+  color: white;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.6px;
+  /* text-align: left; */
+  margin-top: 20px;
+  width: 70%;
+}
+
+.bookingBox {
+  /* margin-top: 200px; */
+
+  width: 260px;
+  height: 315px;
+  top: 252px;
+  left: 949px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  background-image: url("/public/images/book.png");
+  padding: 25px 20px 20px 20px;
+  /* float: right; */
+}
+
+.bookingCont span {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 13.8px;
+  text-align: left;
+  color: #797979;
+}
+
+.bookingBox h6 {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.25px;
+  text-align: left;
+}
+
+.bookingCont {
+  display: flex;
+  align-items: flex-start;
+  /* Align items to the start (top) */
+  gap: 10px;
+}
+
+.bookingForm {
+  margin-top: 20px;
+}
+
+input {
+  width: 213px;
+  height: 37px;
+  top: 350px;
+  left: 973px;
+  gap: 0px;
+  border-radius: 25px;
+  border: 0.5px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #797979;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+.bookingForm input::placeholder {
+  color: white;
+  /* Replace this with your desired color */
+  opacity: 1;
+  /* Optional: Ensures the color is fully opaque */
+  padding-left: 20px;
+}
+
+.formButton {
+  border-radius: 25px;
+  background-color: #8ec63f;
+  width: 100%;
+  color: white !important;
+}
+
+button.formButton {
+  color: white !important;
+}
+
+#drawer-navigation {
+  width: 100%;
+  height: 100vh;
+}
+
+.getStarted {
+  width: 150px;
+  height: 50px;
+  top: 495px;
+  left: 230px;
+  gap: 0px;
+  border-radius: 25px;
+  opacity: 0px;
+  background-color: #8ec63f;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.ourMenu {
+  background-color: transparent;
+  border: 2px solid white;
+  width: 150px;
+  height: 50px;
+  top: 495px;
+  left: 230px;
+  gap: 0px;
+  border-radius: 25px;
+}
+
+.menuButtons {
+  margin-top: 20px;
+}
+
+.formBook {
+  display: flex;
+  justify-content: center;
+}
+
+.foodDeliver {
+  height: 700px;
+  width: 100%;
+  background-color: #f8f7f2;
+  padding-top: 50px;
+}
+
+.foodDelCont h6 {
+  /* font-family: Cuprum; */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.79px;
+  /* text-align: left; */
+  color: #8ec63f;
+}
+
+.foodDelCont h2 {
+  font-family: Arial;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.59px;
+  /* text-align: left; */
+}
+
+.foodDelCont h2 span {
+  color: #8EC63F;
+}
+
+.foodDelCont p {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.4px;
+  /* text-align: left; */
+  color: #797979;
+  padding: 30px 0 30px 0;
+  width: 60%;
+}
+
+.deliveryBox {
+  /* width: 100%; */
+  height: 164px;
+  top: 1180px;
+  left: 230px;
+  gap: 0px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0px 4px 10px 0px #00000033;
+  padding: 50px 0 50px 20px;
+}
+
+.boxDelallCont {
+  padding: 20px 0 20px 0;
+}
+
+.fooDelboxCont {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.fooDelboxCont h4 {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.fooDelboxCont p {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  color: #797979;
+  width: 50%;
+}
+
+.enjoy {
+  padding: 50px 0 50px 0;
+
+}
+
+.enjoyTopCont {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.enjoyTopCont h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.79px;
+  color: #8ec63f;
+  padding: 20px 20px;
+}
+
+.enjoyTopCont h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.59px;
+  padding: 20px 20px;
+}
+
+.enjoyTopCont p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+  color: #797979;
+  padding: 20px 20px;
+}
+
+.enjoyBox h5 {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.4px;
+
+
+
+}
+
+.enjoyBox p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #797979;
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.enjoyBox a {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 13.8px;
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 20px;
+  position: relative;
+  /* Needed for positioning the pseudo-element */
+}
+
+
+.enjoyBox a::after {
+  content: '';
+  display: block;
+  width: 70%;
+  /* Adjust this value to set the length of the border */
+  margin: 0 auto;
+  /* Center the border */
+  border-bottom: 3px solid #8EC63F;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+}
+
+.enjoyBox {
+  width: 100%;
+}
+
+.menu {
+
+  height: 600px;
+  background-color: #f8f7f2;
+  padding: 50px 50px;
+}
+
+.menu h6 {
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.79px;
+  color: #8EC63F;
+
+}
+
+.menu h2 {
+
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.59px;
+  padding: 20px 20px;
+
+}
+
+.menu p {
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+  color: #797979;
+
+}
+
+.menuTopCont {
+  text-align: center;
+}
+
+.menuPrices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  /* Ensure text aligns from the left */
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* Ensure the flex container takes full width */
+}
+
+.flexContainer h4 {
+  flex-grow: 21.5;
+  /* Allow h4 to take remaining space */
+  margin: 0;
+  /* Reset margin if necessary */
+  margin-left: 174px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.4px;
+
+}
+
+.flexContainer h5 {
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.4px;
+
+}
+
+.menuPrices p {
+  margin: 10px 0 0 0;
+  /* Optional: add margin for spacing */
+  /* width: 100%; */
+  /* margin-left: 250px; */
+
+
+}
+
+.menuPrices {
+  padding: 15px 0 20px 0;
+  /* border-bottom: 2px solid red; */
+}
+
+hr {
+  width: 84%;
+  margin-left: 227px;
+  border: 1px solid #CBCBCB;
+  margin-top: 10px;
+}
+
+.menuButton {
+  width: 210px;
+  height: 50px;
+  top: 495px;
+  left: 230px;
+  gap: 0px;
+  border-radius: 25px;
+  opacity: 0px;
+  background-color: #8ec63f;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 30px 0 0 100px;
+}
+
+.numberSection {
+  background-image: url("/public/images/numbers.png");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  color: aliceblue;
+
+}
+
+.numberSection h6 {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.79px;
+  color: #8EC63F;
+
+}
+
+.numberSection h2 {
+
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55.2px;
+
+}
+
+.numberSection p {
+
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+
+
+
+}
+
+.numberSection hr {
+  width: 10%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #8EC63F;
+  border: none;
+  height: 3px;
+  margin-top: 20px;
+}
+
+.numbers h3 {
+  font-family: Arial;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.59px;
+
+}
+
+.numbers p {
+  font-family: Cuprum;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.48px;
+  color: #8EC63F;
+
+
+}
+
+.orderNow {
+  /* height: 1000px; */
+  width: 100%;
+  background-color: #f8f7f2;
+  padding-top: 50px;
+}
+
+.orderNow h6 {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.79px;
+  color: #8EC63F;
+
+}
+
+.orderNow h2 {
+
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.59px;
+
+}
+
+.orderNow p {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+  color: #797979;
+
+}
+
+.form {
+  width: 100%;
+
+
+  border-radius: 10px;
+
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 10px 0px #00000033;
+
+
+}
+
+.form input {
+  background-color: #F8F7F2;
+  box-shadow: 0px 3px 6px 0px #00000033;
+  border-radius: 5px;
+  border: 2px solid #F8F7F2 !important;
+  height: 50px;
+
+}
+
+.form textarea {
+  background-color: #F8F7F2;
+  box-shadow: 0px 3px 6px 0px #00000033;
+
+}
+
+.form .submitBtn {
+  text-align: center;
+
+}
+
+.form .submitBtn button {
+  background-color: #8EC63F;
+}
+
+.form label {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+}
+
+.gallery h6 {
+  font-family: Cuprum;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.79px;
+  /* text-align: left; */
+  color: #8EC63F;
+
+}
+
+.gallery h2 {
+
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.59px;
+
+}
+
+.gallery p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+
+}
+
+.contact {
+  background-color: black;
+}
+
+.contactButton {
+
+  top: 495px;
+  left: 230px;
+  gap: 0px;
+  font-family: Cuprum;
+  opacity: 0px;
+  background-color: #8ec63f;
+
+  width: 100px;
+  height: 39px;
+  top: 5139px;
+  left: 219px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  font-size: 16px;
+}
+
+.contact {
+  /* text-align: center; */
+}
+
+.contact h2 {
+  font-family: Arial;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.8px;
+
+  color: white;
+}
+
+.contactCont {
+  margin-left: 19.5rem;
+}
+
+.contBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.contBox p {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.1px;
+  text-align: left;
+
+}
+.socialIcons {
+  display: flex;
+  align-items: flex-start;
+  gap: 45px;
+}
+.footer {
+  background-color: #8EC63F;
+  padding: 30px;
+}
+.footer h2 {
+  font-family: Arial;
+font-size: 40px;
 font-weight: 700;
-line-height: 110.39px;
-text-align: left;
-color: #8EC63F;
-
-
-border-bottom: 5px solid  #8EC63F;; /* Change the color here */
-  padding-bottom: 10px; /* Adjust the space from the bottom here */
-
-   }
-
-   .hero h1  {
-    margin-top: 200px;
-font-size: 96px;
-font-weight: 700;
-line-height: 110.39px;
-text-align: left;
-color: white
-   }
-
-   p{
-    
-font-size: 24px;
-font-weight: 400;
-line-height: 27.6px;
-text-align: left;
-margin-top: 20px;
-width: 60%;
-
-   }
-
-   .bookingBox{
-    margin-top: 200px;
-
-    width: 260px;
-height: 315px;
-top: 252px;
-left: 949px;
-gap: 0px;
-border-radius: 10px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-background-image: url('/public/images/book.png');
-padding: 25px 20px 20px 20px;
-
-   }
+line-height: 46px;
+color: white;
+}
