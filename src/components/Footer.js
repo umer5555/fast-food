@@ -5,11 +5,11 @@ function Footer() {
     <>
     <div className='footer'>
         <div className='container mx-auto'>
-            <div className='grid xl:grid-cols-12'>
-                <div className='xl:col-span-6 flex justify-center'>
+            <div className='grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12'>
+                <div className='xl:col-span-6  lg:col-span-6 md:col-span-6 sm:col-span-6 flex justify-center'>
                         <h2>DOWNLOAD OUR MENU</h2>
                 </div>
-                <div className='xl:col-span-6 flex justify-center'>
+                <div className='xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-6 flex justify-center'>
                 <button
                 style={{color:'white'}}
                     type="button"

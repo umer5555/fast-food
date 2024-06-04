@@ -128,6 +128,11 @@ body {
 .enjoyBox {
   padding-bottom: 50px;
 }
+.footer h2 {
+  
+  font-size: 31px!important;
+  
+}
 }
 
 
@@ -182,9 +187,9 @@ body {
 }
 
 .enjoyBox.grid {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centers the items horizontally */
+  justify-content: center;  */
 }
 .enjoyBox {
   margin: 0 auto; /* Ensures each enjoyBox is centered */
@@ -201,6 +206,12 @@ body {
 .numberSection {
   
   height: 680px!important;
+}
+ .contactCont {
+  margin-bottom:10px
+ }
+ .footer h2 {
+  font-size:28px!important
 }
   }
   @media (max-width: 640px) {
@@ -265,9 +276,9 @@ body {
 }
 
 .enjoyBox .grid {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centers the items horizontally */
+  justify-content: center;   */
 }
 .enjoyBox {
   margin: 0 auto; /* Ensures each enjoyBox is centered */
@@ -320,6 +331,15 @@ body {
   /* flex-wrap: wrap; */
   justify-content: center; /* Centers the items horizontally */
   width: 100%;
+}
+.contactCont {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.footer h2 {
+  font-size:24px!important
 }
 
   }

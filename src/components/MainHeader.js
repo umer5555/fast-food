@@ -3,6 +3,7 @@ import { Button, Navbar } from "flowbite-react";
 import { Alert } from "flowbite-react";
 import "flowbite";
 import HeroSec from "./HeroSec";
+import { Link } from "react-router-dom";
 
 function MainHeader() {
   return (
@@ -23,10 +24,12 @@ function MainHeader() {
               <div className="xl:col-span-10  lg:col-span-8 md:col-span-8     ">
                 <ul flex justify-center>
                   <li>
-                    <a href="">Homes</a>
+                    <a href=""> Homes</a>
                   </li>
                   <li>
-                    <a href="">About</a>
+                    <a href=""><Link to="/about">
+                    About Us
+                </Link></a>
                   </li>
                   <li>
                     <a href="">Blog</a>
@@ -42,7 +45,7 @@ function MainHeader() {
                     type="button"
                     class=" login  bg-white  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                   >
-                    Login
+                  <Link to="/login">  Login</Link>
                   </button>
                 </ul>
               </div>

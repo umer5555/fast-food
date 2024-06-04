@@ -10,7 +10,7 @@ function Enjoy() {
             <p>Inspired by recipes and creations of world’s best chefs</p>
         </div>
 
-        <div className='grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 Sm:grid-cols-12  '>
+        <div className='grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12  '>
             <div className='xl:col-span-3 lg:col-span-3 md:col-span-6 sm:col-span-12 sm:flex sm:justify-center'>
                 <div className='enjoyBox'>
                 <img src={`${process.env.PUBLIC_URL}/images/e1.png`}  />
