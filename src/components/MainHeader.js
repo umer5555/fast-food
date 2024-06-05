@@ -384,18 +384,20 @@ function MainHeader() {
                   </form>
                 </div>
               </div>
+               
+ 
+ 
             </div>
             <div></div>
           </div>
         </div>
-      </div>
-{/* 
-      <div className="container mx-auto flex justify-end">
-  <img
-    className=""
+        <img
+    className="leafImage"
     src={`${process.env.PUBLIC_URL}/images/leaf.png`}
   />
-</div> */}
+      </div>
+
+
 
     </>
   );

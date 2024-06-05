@@ -12,15 +12,17 @@ import Footer from './components/Footer'
 function Home() {
   return (
     <div>
+      
         <MainHeader />
         <FreeDelivery /> 
         <Enjoy />
-        {/* <Menu /> */}
+        <Menu />
         <NumberSection />
         <GallerySection />
         <OrderNow />
         <ContactSection />
         <Footer />
+
     </div>
   )
 }

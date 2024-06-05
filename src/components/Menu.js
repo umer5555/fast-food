@@ -10,7 +10,7 @@ function Menu() {
                         <h2>Our Menu</h2>
                         <p>Inspired by recipes and creations of world’s best chefs</p>
                     </div>
-                    <div className='grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 Sm:grid-cols-12  '>
+                    <div className='grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 Sm:grid-cols-12  xl:gap-x-20 lg:gap-x-10 md:gap-x-10  gap-y-6 '>
                         <div className='xl:col-span-6  lg:col-span-6 md:col-span-6 sm:col-span-12'>
                             <div className='menuPrices'>
                                 <div className='flexContainer'>
@@ -19,7 +19,7 @@ function Menu() {
                                 </div>
 
                                 <p>Heirloom cherry tomatoes, high-quality extra-virgin olive oil</p>
-                                <hr></hr>
+                                
                             </div>
                             
                         </div>
@@ -31,7 +31,7 @@ function Menu() {
                                 </div>
 
                                 <p>Heirloom cherry tomatoes, high-quality extra-virgin olive oil</p>
-                                <hr></hr>
+                                
                             </div>
                             
                         </div>
@@ -43,10 +43,12 @@ function Menu() {
                                 </div>
 
                                 <p>Heirloom cherry tomatoes, high-quality extra-virgin olive oil</p>
-                                <hr></hr>
+                                
                             </div>
                             
                         </div>
+                    
+                        
                         <div className='xl:col-span-6  lg:col-span-6 md:col-span-6 sm:col-span-12'>
                             <div className='menuPrices'>
                                 <div className='flexContainer'>
@@ -55,10 +57,11 @@ function Menu() {
                                 </div>
 
                                 <p>Heirloom cherry tomatoes, high-quality extra-virgin olive oil</p>
-                                <hr></hr>
+                                
                             </div>
                             
                         </div>
+                          
                         <div className='xl:col-span-6  lg:col-span-6 md:col-span-6 sm:col-span-12'>
                             <div className='menuPrices'>
                                 <div className='flexContainer'>
@@ -67,10 +70,11 @@ function Menu() {
                                 </div>
 
                                 <p>Heirloom cherry tomatoes, high-quality extra-virgin olive oil</p>
-                                <hr></hr>
+                                
                             </div>
                             
                         </div>
+                          
                         <div className='xl:col-span-6  lg:col-span-6 md:col-span-6 sm:col-span-12'>
                             <div className='menuPrices'>
                                 <div className='flexContainer'>
@@ -79,7 +83,7 @@ function Menu() {
                                 </div>
 
                                 <p>Heirloom cherry tomatoes, high-quality extra-virgin olive oil</p>
-                                <hr></hr>
+                                
                             </div>
                             
                         </div>

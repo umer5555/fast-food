@@ -4,7 +4,7 @@ import MainHeader from './components/MainHeader';
 import Home from './Home';
 import Login from './components/Login';
 import { BrowserRouter, Route } from "react-router-dom";
-
+import Register from './components/Register';
 import React ,{ Component } from "react";
 import {
     BrowserRouter as Router,
@@ -21,7 +21,7 @@ function App() {
   return (
     
     <Router>
-    <div className="App">
+    <div  >
         {/* <ul className="App-header">
             <li>
                 <Link to="">Home</Link>
@@ -45,6 +45,10 @@ function App() {
                 <Route
                 path="login"
                 element={<Login />}
+            ></Route>
+            <Route
+                path="register"
+                element={<Register />}
             ></Route>
              
         </Routes>

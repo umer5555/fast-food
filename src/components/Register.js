@@ -25,10 +25,14 @@ function Login() {
             <p >If you don’t have an account <br /> you can <a href='#'><Link to="/register">Register here</Link></a></p>
           </div>
           <div className='loginForm xl:col-span-6 lg:col-span-6 md:col-span-6 sm:col-span-12'>
-            <h3 className='pt-10'>Sign In</h3>
-            <p className='formpara pt-10'>Access your account by entering your username and password. Enjoy personalized features and secure access to our services.</p>
+            <h3 className='pt-10'>Sign Up</h3>
+            <p className='formpara pt-10'>Create a new account to access exclusive features and services. Simply provide your details to get started.</p>
             
             <form  className="pl-10 pr-10 pb-10">
+            <div className="mb-6">
+                <label htmlFor="large-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name:</label>
+                <input placeholder='Enter Your Name' type="text" id="large-input" className="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+              </div>
               <div className="mb-6">
                 <label htmlFor="large-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email:</label>
                 <input placeholder='Enter Your Email' type="text" id="large-input" className="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />

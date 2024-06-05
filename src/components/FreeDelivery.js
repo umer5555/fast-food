@@ -5,7 +5,7 @@ function FreeDelivery() {
     <>
       <div className="foodDeliver">
         <div className="container mx-auto ">
-          <div className="grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 ">
+          <div className="foodDeliverReverse grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 ">
             <div className="xl:col-span-6 lg:col-span-6 md:col-span-6">
               <img src={`${process.env.PUBLIC_URL}/images/foodDel.png`} />
             </div>
